@@ -1,0 +1,153 @@
+
+@font-face {
+    font-family: poppins;
+    src: url(police/Poppins.ttf);
+}
+@font-face {
+    font-family: geometos;
+    src: url(police/Fontspring-DEMO-geometos_neue.otf);
+}
+
+.assurance{
+	width: 95%;
+	margin: auto;
+}
+
+body{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	background-color: rgb(33, 33, 33);
+	color: #fff;
+	font-family: poppins;
+}
+
+h1{
+	font-size: 2,8rem;
+	font-size: 40px;
+	color: #fff;
+	margin-bottom: -35px;
+	text-transform: uppercase;
+}
+.ass{
+	padding-bottom: 15px;
+	border-bottom: 4px solid orange;
+}
+
+a{
+	text-decoration: none;
+	color:white;
+}
+ 
+
+aside{
+	position: absolute;
+	left: 30px;
+	top: 150px;
+	width: 500px;
+	color:rgb(176, 176, 176);
+	font-size: 20px;
+	font-family: poppins;
+
+}
+ span.color{
+	color:green;
+}
+
+h3{
+	position:absolute;
+}
+.img{
+	position: absolute;
+	left: 500px;
+	bottom: -60px;
+	margin-left: 15%;
+
+}
+.img{
+	box-shadow: -20px 20px 0px orange;
+}
+.el{
+	color:white;
+	font-family: Arial black;
+	font-size: 2,6rem;
+	font-size: 35px;
+	text-transform: uppercase;
+}
+.mont{
+	color: green;
+}
+
+.aside {
+	position: absolute;
+	left: 30px;
+	top: 700px;
+	font-family: poppins;
+	color:white;
+	font-size: 25px;
+	width: 800px;
+}
+.re img{
+	box-shadow: -20px 20px 0px green;
+}
+.art{
+	position: absolute;
+	left: 1000px;
+	top: 700px;
+	border: 2px solid rgb(0,64,0);
+font-family: Bahnschrift Light SemiCondensed; 
+	width: 300px;
+	font-size: 16px;
+	border-style: hidden;
+}
+h3.aside{
+	font-family:Bahnschrift Light SemiCondensed ;
+}
+.def{
+	font-family: poppins;
+	margin-bottom: 5%;
+	width: 370px;
+}
+
+.ep_button{
+	width: 60%;
+	margin: 1200px auto 3% auto;  
+}
+.btn_ep{
+	text-align: center;
+	margin: 7%;
+	margin-left: 0%;
+}
+.ep_button h2{
+	text-align: center;
+}
+.btn_ep a{
+	text-transform: uppercase;
+	color: #fff;
+	text-decoration: none;
+	background-color: green;
+	border-radius: 25px;
+	padding: 20px 10%;
+	border: 2px solid green;
+}
+.btn_ep a:hover{
+	border: 2px solid green; 
+	background-color: rgba(0, 0, 0, 0);
+	color: green;
+}
+
+
+.re{
+	position: absolute;
+	left: 900px;
+	top: 800px;
+}
+
+strong{
+	left: 30px;
+	text-align: center;
+}
+.for{
+	color:yellow;
+font-family: dubai light;
+}

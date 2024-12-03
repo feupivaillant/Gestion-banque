@@ -1,0 +1,65 @@
+@font-face {
+    font-family: poppins;
+    src: url(police/Poppins.ttf);
+}
+/* stylisation du menu */
+nav{
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-family: poppins;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.632);
+}
+nav ul{
+    list-style: none;
+    display: inline-flex;
+    align-items: center;
+}
+nav ul li{
+    padding: 15px 20px 15px 20px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #fff;
+    transition: all ease-in-out 300ms;
+    padding-bottom: 10px;
+}
+nav ul li a:hover{
+    color: green;
+    border-bottom: 2px solid green;
+}
+.active{
+    color: green;
+    border-bottom: 2px solid green;
+}
+/* stylisation du menu fin */
+
+/* button making */
+.button a{
+    padding: 8px;
+    font-size: 1em;
+    border: 1.5px solid #fff;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0);
+    border-radius: 20px;
+    box-shadow: O 4px 10px rgba(0, 0, 0, 0.325);
+    transition: all ease-in-out 300ms;
+}
+.button a:hover{
+    color: green;
+    border: 1.5px solid green;
+}
+/* button making end */
+
+/* logo making */
+.logo{
+    float: left;
+    position: relative;
+    top: 25px;
+    left: 10%;
+}
+
+.fa-solid{
+    margin-right: 8px;
+}
+/* logo making end */

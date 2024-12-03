@@ -1,0 +1,103 @@
+@font-face {
+    font-family: poppins;
+    src: url(police/Poppins.ttf);
+}
+@font-face {
+    font-family: geometos;
+    src: url(police/Fontspring-DEMO-geometos_neue.otf);
+}
+
+body{
+    font-family: poppins;
+    background-color: rgb(33, 33, 33);
+    color: #fff;
+}
+h1, p{
+    text-transform: uppercase;
+}
+.ins{
+    padding-bottom: 1%;
+    border-bottom: 3px solid green;
+}
+.inscription{
+    width: 95%;
+    margin: auto;
+}
+
+/* section */
+    .ins_img{
+        margin-top: 10%;
+        margin-bottom: 10%;
+        margin-left: 3%;
+    }
+    .ins_img img{
+        box-shadow: 25px 25px 0px green;
+    }
+    .formulaire{
+        float: right;
+        display: flex;
+        flex-direction: column;
+        margin-right: 15%;
+        text-align: center;
+        width: 35%;
+        margin-top: -7%;
+    }
+    input{
+        height: 30px;
+        background-color: rgba(240, 248, 255, 0);
+        color: #fff;
+        border-bottom: 4px solid #fff;
+        border-top: 0px;
+        border-left: 0px;
+        border-right: 0px;
+        font-size: 16px;
+    }
+    input:focus-within{
+        border-bottom: 4px solid rgba(0, 128, 0, 0);
+
+    }
+    input:hover{
+        border-bottom: 4px solid rgb(0, 128, 0);
+    }
+    #condition{
+        height: 20px;
+        width: 20px;
+        margin-top: 10px;
+        position: relative;
+        top: 27px;
+    }
+    .accepter{
+        margin-left: 3%;
+    }
+    .form_button{
+        display: flex;
+        justify-content: center;
+    }
+    .form_button a{
+        text-transform: uppercase;
+        color: #fff;
+        text-decoration: none;
+        background-color: green;
+        border-radius: 25px;
+        display: block;
+        width: 130px;
+        height: 40px;
+        text-align: center;
+        padding-top: 15px;
+        border: 2px solid green;
+        margin-right: 40px;
+        margin-top: 5%;
+    }
+    .form_button a:hover{
+        border: 2px solid green;
+        background-color: rgba(0, 0, 0, 0);
+        color: green;
+    }
+    textarea{
+        height: 150px;
+        font-size: 16px;
+    }
+    textare:hover{
+        box-shadow: #000;
+    }
+/* section end */

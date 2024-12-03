@@ -1,0 +1,105 @@
+@font-face {
+    font-family: poppins;
+    src: url(police/Poppins.ttf);
+}
+@font-face {
+    font-family: geometos;
+    src: url(police/Fontspring-DEMO-geometos_neue.otf);
+}
+
+/* newsletter */
+fieldset{
+	border: 3px white dotted;
+	margin-right: 1000px;
+	border-radius: 10px;
+}
+.footar{
+    margin-top: 2%;
+    width: 50%;
+    padding: 5px;
+    border: 3px solid green;
+    background-color: green;
+    border-radius: 15px;
+    text-transform: uppercase;
+}
+.footar a{
+    text-decoration: none;
+    color: #fff;
+}
+.footar:hover{
+    border: 3px solid green;
+    background-color: rgba(0, 128, 0, 0);
+    color: green;
+}
+.footar a:hover{
+    color: green;
+}
+input{
+    height: 30px;
+    background-color: rgba(240, 248, 255, 0);
+    color: #fff;
+    border-bottom: 4px solid #fff;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+}
+input:focus-within{
+    border-bottom: 4px solid rgba(0, 128, 0, 0);
+
+}
+input:hover{
+    border-bottom: 4px solid rgb(0, 128, 0);
+}
+/* newsletter end */
+
+footer{
+    display: flex;
+    justify-content: center;
+    font-family: poppins;
+    letter-spacing: 1px;
+}
+footer h4{
+    width: 150px;
+    color: #fff;
+    margin: auto;
+    text-transform: uppercase;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+footer ul{
+    list-style: none;
+}
+footer ul li{
+    margin-top: 15px;
+}
+footer ul li a{
+    color: #fff;
+    text-decoration: none;
+}
+footer ul li a:hover{
+    color: green;
+    text-decoration: underline;
+}
+.f_domaine{
+    margin: 0px 15% 0px 15%;
+}
+.f_border{
+    padding-bottom: 10px;
+    border-bottom: 3px solid green;
+}
+
+/* copyright */
+.copyright{
+    text-align: center;
+}
+.copyright a{
+    color: #fff;
+    text-decoration: none;
+}
+.copy{
+    text-decoration: underline;
+}
+.copy:hover{
+    color: green;
+}
+/* copyright end */

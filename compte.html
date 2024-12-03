@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mon compte My-Green-Bank</title>
+    <link rel="stylesheet" href="compte.css">
+    <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="footer.css">
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+    <script src="https://kit.fontawesome.com/b358acc9f4.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="compte">
+                <!-- header -->
+                <nav>
+                    <div class="logo">
+                        <a href="home.html"><img src="image/log.png" alt=""></a>
+                    </div>
+                    <ul>
+                        <li> <a href="home.html" ><i class="fa-solid fa-house"></i>ACCEUIL</a></li>
+                        <li><a href="epargne.html"><i class="fa-solid fa-sack-dollar"></i>Epargne</a></li>
+                        <li><a href="credit.html"><i class="fa-solid fa-dollar"></i>Credit</a></li>
+                        <li><a href="Assurance.html" ><i class="fa-solid fa-hand-holding-hand"></i>Assurance</a></li>
+                        <li><a href="contact.html"><i class="fa-solid fa-square-phone"></i>Contacter</a></li>
+                        <li><a href="compte.html" class="active"><i class="fa-solid fa-circle-user"></i>Mon Compte</a></li>
+                    </ul>
+                </nav>
+                <!-- header end -->
+
+        <!-- section -->
+        <div class="section">
+            <div class="first_sec">
+                <div class="client">
+                    <div class="cli_img">
+                        <img src="image/compte/profil.png" alt="">
+                    </div>
+                    <div class="info_cli">
+                        <h3>Rudex Junior Tede</h3>
+                        <h3>ID : 1234567890</h3>
+                        <h3>Email : client@gmail.com</h3>
+                        <h5>Modifier votre mot de passe ? <a href="modifier_password.html">Mot de passe</a></h5>
+                    </div>
+                </div>
+                <div class="mcompte">
+                    <h2><span class="cl">Comptes</span></h2>
+                    <div class="cli_ep">
+                        <h3>Epargne :</h3>
+                        <h3><a href="#">Actif</a></h3>
+                    </div>
+                    <div class="cli_cr">
+                        <h3>Credit :</h3>
+                        <h3><a href="#">Desactivé</a></h3>
+                    </div>
+                    <div class="cli_as">
+                        <h3>Assurance :</h3>
+                        <h3><a href="#">Actif</a></h3>
+                    </div>
+                </div>
+                <div class="debrief">
+                    <h2><span class="cl">Debrief</span></h2>
+                    <ul>
+                        <li>votre avez ouvert un compte epargne le 01/08/2021. <br>
+                            vous avez debutez avec une somme de 3,000,000 XAF. <br>
+                            Le compte va prendre fin le 01/08/2022.
+                        </li>
+                        <li>votre avez ouvert un compte Credit le 11/02/2022. <br>
+                            vous avez été credité d'une somme de 2,500,000 XAF. <br>
+                            La totalité de votre credit doit être remboursée avant le 01/08/2022.
+                        </li>
+                        <li>votre avez ouvert un compte Assurance le 02/01/2022. <br>
+                            vous avez été débité d'une somme de 2,385,402 XAF. <br>
+                            Le compte va prendre fin le 01/01/2023.
+                        </li>
+                    </ul>
+                </div>
+                <div class="form_button">
+                    <div class="form_inscription"><a href="index.html">Deconnexion</a></div>
+                </div>
+            </div>
+            <div class="second_sec">
+                <h2><span class="cl">Epargne</span></h2>
+                <div class="second_ep">
+                    <div class="solde">
+                        <h4><span class="sl">solde</span></h4>
+                        <p>3,567,500 XAF</p>
+                    </div>
+                    <div class="flux">
+                        <h4><span class="sl">Flux du compte</span></h4>
+                        <div class="flux_img_ep">
+                            <img src="image/compte/img3.png" alt="">
+                        </div>
+                        <h5>date de fin: 01/08/2022</h5>
+                    </div>
+                </div>
+                <h2><span class="cl">Credit</span></h2>
+                <div class="second_cr">
+                    <div class="solde">
+                        <h4><span class="sl">solde</span></h4>
+                        <p>-1,340,200 XAF</p>
+                    </div>
+                    <div class="flux">
+                        <h4><span class="sl">Flux du compte</span></h4>
+                        <div class="flux_img_cr">
+                            <img src="image/compte/img6.png" alt="">
+                        </div>
+                        <h5>date de fin: 11/02/2027</h5>
+                    </div>
+                </div>
+                <h2><span class="cl">Assurance</span></h2>
+                <div class="second_as">
+                    <div class="solde">
+                        <h4><span class="sl">solde</span></h4>
+                        <p>2,385,402 XAF</p>
+                    </div>
+                    <div class="flux">
+                        <h4><span class="sl">Flux du compte</span></h4>
+                        <div class="flux_img_as">
+                            <img src="image/compte/img3.png" alt="">
+                        </div>
+                        <h5>date de fin: 01/01/2023</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- section end -->
+
+            <!-- footer -->
+            <marquee><fieldset class="abon">
+                <table><center>
+                <u>ABONNEMENT-NEWSLETTER</u><br><br>
+                <label>Votre nom(*) </label><input type="text" name="nom" placeholder="nom" required="" class="yo"><br><br>
+                <label>Votre email(*) </label><input type="text" name="email" placeholder="votre email" required="">
+                <div class="footar"><a href="#" class="foota">S'incrire</a></div>
+                </table></center>
+            </fieldset></marquee>
+            <footer>
+                <div class="f_contact">
+                        <h4><span class="f_border">contact</span></h4>
+                        <ul>
+                            <li><i class="fa-solid fa-location-pin"></i> Awae escalier, yaounde, cameroun</li>
+                            <li><a href="mailto:contact@mygreenbank.com"><i class="fa-solid fa-envelope"></i>Mail: contact@mygreenbank.com</a></li>
+                            <li><a href="#"><i class="fa-brands fa-whatsapp"></i> +237 656 484 013</a></li>
+                            <li><a href="#"><i class="fa-solid fa-phone"></i> +237 681 054 445</a></li>
+                        </ul>
+                    </div>
+                    <div class="f_domaine">
+                        <h4><span class="f_border">Services</span></h4>
+                        <ul>
+                            <li><a href="#">Epargne</a></li>
+                            <li><a href="#">Credit</a></li>
+                            <li><a href="#">Assurance</a></li>
+                        </ul>
+                    </div>
+                    <div class="fcompte">
+                        <h4><span class="f_border">Siege social</span></h4>
+                        <ul>
+                            <li><a href="#"><i class="fa-solid fa-location-pin"></i>1063 place de l'independance</a></li>
+                            <li><a href="#"><i class="fa-solid fa-envelope-open-text"></i>BP: 11834 Yaoundé - Cameroun</a></li>
+                            <li><a href="#"><i class="fa-solid fa-circle-question"></i>Obtenir de l'aide</a></li>
+                        </ul>
+                    </div>
+            </footer>
+            <!-- footer end -->
+
+            <!-- copyright -->
+            <div class="copyright">
+                <a href="#">copyright: <span class="copy">&copy;MyGreenBank 2022</span></a>
+            </div>
+            <!-- copyright end -->      
+
+    </div>
+</body>
+</html>

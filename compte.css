@@ -1,0 +1,141 @@
+@font-face {
+    font-family: poppins;
+    src: url(police/Poppins.ttf);
+}
+@font-face {
+    font-family: geometos;
+    src: url(police/Fontspring-DEMO-geometos_neue.otf);
+}
+
+body{
+    font-family: poppins;
+    color: #fff;
+    background-color: rgb(33, 33, 33);
+    letter-spacing: 1px;
+    word-spacing: 3px;
+}
+.compte{
+    width: 95%;
+    margin: auto;
+}
+h1, h2, h3, h4, h5 a{
+    text-transform: uppercase;
+}
+
+/* section */
+    .section{
+        margin-top: 5%;
+        display: flex;
+        margin-bottom: 5%;
+    }
+    /* first section */
+    .first_sec{
+        background-color: rgba(59, 59, 59, 0.711);
+        width: 47%;
+        padding-left: 3%;
+        padding-top: 2%;
+        border-top-right-radius: 40px;
+        border-bottom-right-radius: 40px;
+        box-shadow: -20px -20px 0px orange;
+    }
+    .client{
+        display: flex;
+        margin-top: 20%;
+    }
+    .cli_img{
+        margin-top: 5%;
+        margin-right: 10%;
+    }
+    .cli_img img{
+        width: 150px;
+        height: 150px;
+        cursor: pointer;
+        border-radius: 50%;
+        border: 5px solid orange;
+    }
+    .info_cli a, .cli_ep a, .cli_as a{
+        color: green;
+    }
+    .cli_ep, .cli_cr, .cli_as{
+        display: flex;
+    }
+    .cli_ep h3 a{
+       position: relative;
+       left: 440%;
+
+    }
+    .cli_cr h3 a{
+        position: relative;
+        left: 250%;
+        color: rgba(240, 248, 255, 0.551);
+    }
+    .cli_as h3 a{
+        position: relative;
+        left: 400%;
+    }
+    .debrief ul li{
+        margin-bottom: 5%;
+    }
+    /* first section end */
+
+    /* second section */
+    .second_sec{ 
+        width: 50%;
+    }
+    .second_sec img{
+        width: 400px;
+        height: 200px;
+    }
+    .second_ep,.second_cr, .second_as{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+    .solde p{
+        font-size: 300%;
+        color: green;
+    }
+    h2{
+        text-align: center;
+    }
+    .mcompte h2, .debrief h2{
+        margin-left: -7%;
+    }
+    .cl{
+        padding-left: 15px;
+        border-bottom: 3px solid green;
+    }
+    .sl{
+        padding-bottom: 8px;
+        border-bottom: 3px solid rgb(207, 141, 10);
+    }
+    /* second section end */
+
+    /* deconnexion button */
+    .form_button{
+        display: flex;
+        justify-content: center;
+        margin-top: 3%;
+    }
+    .form_button a{
+        text-transform: uppercase;
+        color: #fff;
+        text-decoration: none;
+        background-color: green;
+        border-radius: 25px;
+        display: block;
+        width: 130px;
+        height: 40px;
+        text-align: center;
+        padding-top: 15px;
+        border: 2px solid green;
+        margin-right: 40px;
+        margin-top: 5%;
+    }
+    .form_button a:hover{
+        border: 2px solid green;
+        background-color: rgba(0, 0, 0, 0);
+        color: green;
+    }
+    /* deconnexion button end */
+/* section end */

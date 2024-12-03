@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>formulaire</title>
+	<link rel="stylesheet" type="text/css" href="style_4.css">
+</head>
+<body>
+<form method="post" action="traitement.php">
+	<fieldset>
+		<legend>vos cordonnées</legend>
+		<label>Nom</label>:<input type="text" name="Nom" placeholder="entrer votre nom" required><br>
+	<label>prenom</label>:<input type="text" name="prénom" placeholder="entrer votre prénom" required><br>
+    <label>e-mail</label>:<input type="text" name="e-mail" placeholder="entrer un e-mail valide" required><br>
+    <label>Mot de passe</label>:<input type="password" name="mot de passe" placeholder="" required><br>
+    <label>comfirmer votre mot de passe</label>:<input type="password" name="comfirmer votre mot de passe" value="" required><br>
+    <label>Ville</label>:<input type="text" name="ville" placeholder="ville" required><br>
+    <label>Region</label>:<input type="text" name="region" placeholder="region" required><br>
+    <label>Code postal</label>:<input type="text" name="code postal" placeholder="post/zip" required><br>
+    <label>age</label>:<input type="number"  /><br> <label>Date de naissance</label><input type="date" /><br>
+<label>tel</label><input type="tel" name="telephone"><br><label>Genre</label>:<br><input type="checkbox" name="Mas" id="Mas" ><label>Homme</label><br>
+<input type="checkbox" name="fem" id="fem"><label>Femme</label><br><input type="checkbox" name="ado" id="ado"><label>Adolescent</label><br>
+<input type="checkbox" name="chil" id="chil"><label>Enfant</label><br>
+	</fieldset>
+	<p><label>comment pensez-vous que je pourrais ameliorer mon site ?</label><textarea name="ameliorer" id="ameliorer"></textarea></p>
+	<label>recherche</label><input type="search" /><br>
+	<input type="submit" value="Envoyer"/><input type="reset" value="effacer">
+</form>
+</body>
+</html>
